@@ -1,0 +1,13 @@
+cloud:
+  aws:
+    region:
+      static: ap-southeast-1
+      auto: false
+    credentials:
+      profilePath: /home/harvanir/Documents/dev/repo/github/harvanir/springboot-sqs-demo/src/main/resources/AWSCredentials # option 1, see ContextConfigurationUtils
+#      accessKey: 'ABCDEFGHIJKLMNOPQRST' # option 2
+#      secretKey: 'LSKDFJKLSDJFSDKFJOI2O2I3U4SDFLKJSDFLK' # option 2
+#      access-key: 'ABCDEFGHIJKLMNOPQRST' # bugs
+#      secret-key: 'LSKDFJKLSDJFSDKFJOI2O2I3U4SDFLKJSDFLK' # bugs
+    stack:
+      auto: false
